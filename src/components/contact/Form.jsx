@@ -36,7 +36,7 @@ function Form() {
         <h2 className="text-4xl uppercase font-bold mb-4">get in touch</h2>
         <form
           method="POST"
-          action="https://getform.io/f/a2196b58-96f5-4ff8-a097-301fd6155177"
+          action="https://getform.io/f/66dabaf9-eaa3-460c-b7b0-bb0b1a1170c1"
           className="w-full max-w-lg"
         >
           <div className="flex flex-wrap -mx-3 mb-4">
