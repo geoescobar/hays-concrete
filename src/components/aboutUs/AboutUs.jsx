@@ -9,7 +9,7 @@ function AboutUs() {
             <h1 className="md:text-4xl text-2xl pb-4 font-bold uppercase">
               Your vision, our expertise
             </h1>
-            <p>
+            <p className="text-lg">
               Hays Construction is a family-owned and operated business that has
               been providing top-quality construction services for over a decade
               in the DFW Metroplex. Founded 11 years ago by a father and son
@@ -30,7 +30,7 @@ function AboutUs() {
               space, we are here to help.
             </p>
           </div>
-          <div className="md:m-10 mx-10">
+          <div className="md:m-10 mx-10 md:block hidden">
             <img
               src="https://circaworks.com/wp-content/uploads/2020/12/blog-2.jpg"
               alt="img"

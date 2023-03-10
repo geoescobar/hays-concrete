@@ -17,8 +17,8 @@ function Hero() {
             <h1 className="md:text-7xl uppercase sm:text-6xl text-4xl md:py-6">
               <span className="font-bold">about</span> us
             </h1>
-            <p className=" drop-shadow-2xl py-2 pb-8 uppercase text-center text-xl">
-              Why we're the most trusted in the DFW
+            <p className=" drop-shadow-xl pb-6 uppercase text-center text-xl">
+              Where concrete meets craftsmanship
             </p>
           </div>
         </div>

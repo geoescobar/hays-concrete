@@ -12,10 +12,10 @@ function Tagline() {
           />
         </div>
         <div className="py-8 m-10 text-center flex flex-col justify-center">
-          <h1 className="md:text-4xl text-2xl pb-4">
+          <h1 className="md:text-4xl text-2xl pb-4 uppercase font-bold">
             Concrete solutions built on family values
           </h1>
-          <p>
+          <p className="text-lg">
             For over 10 years, our concrete business has been a trusted name in
             both commercial and residential construction. We take pride in
             providing quality workmanship, exceptional service, and reliable

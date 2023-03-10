@@ -12,7 +12,7 @@ function Projetcs() {
       <div className="py-8 mx-auto text-center flex flex-col justify-center">
         <h1 className="text-6xl uppercase font-bold pb-4">Recent Projects</h1>
         <p className="md:text-xl pb-10 sm:text-sm uppercase">
-          See our latest concrete creations
+          check out our latest work 
         </p>
       </div>
       <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-1 justify md:ml-[150px] ml-[75px]">

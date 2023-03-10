@@ -18,9 +18,9 @@ function Hero() {
               <span className="font-bold">Services</span>
             </h1>
             <p className=" drop-shadow-2xl py-2 pb-8 uppercase text-center text-xl">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora,
-              illum.
+              Contact us to for a free estimate on your next project
             </p>
+        
           </div>
         </div>
       </div>

@@ -42,7 +42,7 @@ function Form() {
           <div className="flex flex-wrap -mx-3 mb-4">
             <div className="w-full px-3">
               <label
-                className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                className="block uppercase tracking-wide text-gray-700 text-sm md:text-xl  font-bold mb-2"
                 htmlFor="name"
               >
                 Name
@@ -58,7 +58,7 @@ function Form() {
           <div className="flex flex-wrap -mx-3 mb-4">
             <div className="w-full px-3">
               <label
-                className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                className="block uppercase tracking-wide text-gray-700 text-sm md:text-xl font-bold mb-2"
                 htmlFor="email"
               >
                 Phone
@@ -72,14 +72,16 @@ function Form() {
                 onChange={handlePhoneChange}
               />
               {phoneError && (
-                <p className="text-red-500 text-xs italic">{phoneError}</p>
+                <p className="text-red-500 text-sm md:text-xl italic">
+                  {phoneError}
+                </p>
               )}
             </div>
           </div>
           <div className="flex flex-wrap -mx-3 mb-4">
             <div className="w-full px-3">
               <label
-                className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                className="block uppercase tracking-wide text-gray-700 text-sm md:text-xl font-bold mb-2"
                 htmlFor="email"
               >
                 Email
@@ -93,7 +95,9 @@ function Form() {
                 onChange={handleEmailChange}
               />
               {emailError && (
-                <p className="text-red-500 text-xs italic">{emailError}</p>
+                <p className="text-red-500 text-sm md:text-xl italic">
+                  {emailError}
+                </p>
               )}
             </div>
           </div>
@@ -101,7 +105,7 @@ function Form() {
           <div className="flex flex-wrap -mx-3 mb-4">
             <div className="w-full px-3">
               <label
-                className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                className="block uppercase tracking-wide text-gray-700 text-sm md:text-xl font-bold mb-2"
                 htmlFor="message"
               >
                 Message
@@ -117,7 +121,7 @@ function Form() {
           </div>
           <div className="flex justify-center">
             <button
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              className="bg-[#FFA737] hover:bg-[#bb7a25] text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               type="submit"
               name="button"
             >

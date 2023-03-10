@@ -12,7 +12,7 @@ function Contact() {
           <div className="">
             <Form />
           </div>
-          <div className="mt-32 md:text-start text-center">
+          <div className="mt-44 md:text-start text-center">
             <div>
               <h1 className="text-4xl font-bold uppercase ">Phone</h1>
               <p className="text-xl pb-8">(214) 995-5822</p>

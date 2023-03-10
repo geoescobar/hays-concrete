@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Contact() {
   return (
-    <div className="bg-[#969696] mt-20 pb-20">
+    <div className="bg-[#172A3A] text-white mt-20 pb-20">
       <div className="py-8 mx-auto text-center flex flex-col justify-center">
         <h1 className="text-6xl  mt-12 uppercase font-bold pb-4">
           Get Started Today{" "}
@@ -12,7 +12,7 @@ function Contact() {
       </div>
       <div className="pt-4">
         <Link to="/contact">
-          <p className="bg-[#6EEB83] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black text-center">
+          <p className="bg-[#FFA737] hover:bg-[#bb7a25] w-[200px] rounded-md font-bold uppercase my-6 mx-auto py-3 text-black text-center">
             Contact Us
           </p>{" "}
         </Link>
